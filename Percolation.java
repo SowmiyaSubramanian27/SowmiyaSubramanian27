@@ -19,6 +19,7 @@ public class Percolation {
 		map = new boolean[n + 2][n + 2];
 	}
 
+	
 	// opens the site (row, col) if it is not open already
 	public void open(int row, int col) {
 		if (row < 1 || row > n || col < 1 || col > n)
